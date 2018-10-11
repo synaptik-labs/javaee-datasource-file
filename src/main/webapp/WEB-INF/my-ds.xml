@@ -1,0 +1,10 @@
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:/datasources/MyDS" pool-name="MyDS">
+        <driver>embeddedds.war_com.mysql.cj.jdbc.Driver_8_0</driver>
+        <connection-url>jdbc:mysql://10.0.0.128:3306/example?useSSL=false&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=UTC</connection-url>
+        <security>
+            <user-name>exampleuser</user-name>
+            <password>password</password>
+        </security>
+    </datasource>
+</datasources>
